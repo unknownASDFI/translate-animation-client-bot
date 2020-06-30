@@ -38,6 +38,7 @@ async def main(event):
             time.sleep(3)
             await client.delete_messages(event.chat_id, [event.message])
             return
+        text = text.split()
         if(text[0] in ["translate", "ترجمه"]):
             if(len(text) == 1):
                 if(event.is_reply):
@@ -84,7 +85,8 @@ async def main(event):
                 for line in text[1:]:
                     message += Bot.translator.translate(line, dest = lang).text + "\n"
                 await client.edit_message(event.chat_id, event.message, message)
-        elif(text == "translate help"):
+        text = event.raw_text
+        if(text == "translate help"):
             new_text = "Available Languages:\n\nen,fa\n\nhttps://github.com/AliSadafi83/translate-client-bot"
             await client.edit_message(event.chat_id, event.message, new_text)
             return
