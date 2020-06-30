@@ -8,7 +8,9 @@ client telegram bot for animation chat and translate<br/>
 Installation:<br/><br/>
 install telethon by this command in cmd or terminal:<br/>
 pip install python-telegram-bot<br/>
-pip install telethon<br/>
+pip install telethon<br/><br/>
+install google-translator-api by this command in cmd or terminal:<br/>
+pip install googletrans<br/></br>
 Goto https://my.telegram.org/ <br/>
 Login to your Telegram account with the phone number of the developer account to use.<br/>
 Click under API Development tools.<br/>
