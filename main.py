@@ -1,6 +1,7 @@
 import logging, time, random
 from telethon.sync import TelegramClient
 from telethon import events
+from googletrans import Translator
 
 
 
@@ -13,6 +14,11 @@ class Bot:
     api_id = 0 # your api id in
     api_hash = ""    # your api hash
     admin = 0  #chat_id int
+    translator =  Translator(service_urls=[
+      'translate.google.com',
+      'translate.google.co.kr',
+    ])
+    
 
 
 
