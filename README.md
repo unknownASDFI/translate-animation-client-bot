@@ -64,8 +64,8 @@ ___________<br/>
 moon 10<br/>
 ___________<br/>
 
-###########################################
-translation guide:<br/><br/>
+###########################################<br/>
+translation guide:<br/>
 YOU CAN TRANSLATE ANY LANGUAGES TO {FA, EN} :)<br/>
 BUT YOU CANT TRANSLATE FROM EN OR FA TO OTHER LANGUAGES...(EN TO FA OR FA TO EN is OK;)<br/>
 languages:en,fa<br/>
