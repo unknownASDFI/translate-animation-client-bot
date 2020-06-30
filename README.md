@@ -71,6 +71,7 @@ BUT YOU CANT TRANSLATE FROM EN OR FA TO OTHER LANGUAGES...(EN TO FA OR FA TO EN 
 languages:en,fa<br/>
 <br/>
 example:<br/>
+<br/>
 ______________<br/>
 translate to fa<br/>
 Hi My<br/>
