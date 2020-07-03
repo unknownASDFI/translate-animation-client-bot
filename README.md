@@ -203,7 +203,7 @@ and you can get animation names...
 your emoji animation message should be in this format:
 
 ```
-animation_name counts_of_replay
+animation_name counts_of_replays
 ```
 example:
 
