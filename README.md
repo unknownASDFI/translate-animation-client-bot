@@ -160,7 +160,7 @@ Hello
 ```
 the text will be Eddited in This Way:
 
-H    ---    He   ---   Hel   ---   Hell   ---   Hell   ---   Hello
+H    --->    He   --->   Hel   --->   Hell   --->   Hell   --->   Hello
 
 2-Type Effect:
 you can send Message with this format:
@@ -178,7 +178,7 @@ Hello
 ```
 the text will be Eddited in This Way:
 
-H|    ---    He|   ---   Hel|   ---   Hell|   ---   Hello|   --- Hello 
+H|    --->    He|   --->   Hel|   --->   Hell|   --->   Hello|   ---> Hello 
 
 ### Emoji Animations
 
