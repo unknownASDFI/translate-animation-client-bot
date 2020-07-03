@@ -12,6 +12,7 @@ Send Animation messages and translate texts from other languages via your accoun
 ### Prerequisites
 
 You Need to Install python3 + and set your python env-variables...
+
 (if you check the add to path in installation it will be fixed after re-start)
 
 ```
@@ -21,7 +22,9 @@ Python 3.5 or newer Versions
 ### Installing
 
 Run this Commands Throw CMD(WINDOWS) or Terminal(LINUX):
+
 if your command dont work choose other command...(commands are seprated by or)
+
 (You should be connected to Internet network Connection to download and Install this Packages)
 
 ```
@@ -53,6 +56,7 @@ Copy and Save your API-id and API-hash
 
 2-
 Now  go to t.me/userinfobot and start the bot...
+
 you'll get a message like this:
 ```
 Id: 401165773
@@ -62,6 +66,7 @@ Lang: en
 copy you Id Number and save it...
 
 3- We should edit the source code... open the file whithe a text Editor(Recommended to Use ATOM, Pycharm, VSCODE, SUBLIME)
+
 You Can find class Bot in line 13:
 ```
 class Bot:
@@ -74,7 +79,9 @@ class Bot:
     ])
 ```
 change api-id to your saved api-id(integer format)   [got to step 1]
+
 change api-hash to your saved api-hash(string format)   [got to step 1]
+
 change admin to your saved Id from https://t.me/userinfobot(integer format)    [got to step 2]
 
 Example:
@@ -116,6 +123,7 @@ For Example This is For Iranian Users:
 +989123456789
 ```
 Telegram Will Send You Five-Digits as Code and you should put it...
+
 If you have tow-step-Verfiacation You Should Enter Your Second Password... It wont show you the password in Terminal(or CMD)...
 
 7-
@@ -145,6 +153,7 @@ In Texts We Can Animate Our Text Messages...
 Effects:
 
 1-Normal Effect:
+
 you can send Message with this format:
 ```
 normal
@@ -163,6 +172,7 @@ the text will be Eddited in This Way:
 H    --->    He   --->   Hel   --->   Hell   --->   Hell   --->   Hello
 
 2-Type Effect:
+
 you can send Message with this format:
 ```
 type
@@ -183,11 +193,13 @@ H|    --->    He|   --->   Hel|   --->   Hell|   --->   Hello|   ---> Hello
 ### Emoji Animations
 
 you can build animations by Emojis:)
+
 you can get animation names by sending thos message:
 ```
 animation help
 ```
 and you can get animation names...
+
 your emoji animation message should be in this format:
 
 ```
@@ -202,8 +214,11 @@ moon 10
 ### Translator Intro
 
 You Can Translate from any other languages to Persian or English...
+
 You can translate persian to English...
+
 You Can Translate Finglish to Persian...
+
 It works with Auto-Language-Detection
 
 ### Translator Guide
@@ -219,7 +234,9 @@ the send message with this format:
 trasnlate to language_name
 ```
 availble language_name s: fa, en
+
 Example:
+
 Reply message then:
 ```
 trasnlate to fa
