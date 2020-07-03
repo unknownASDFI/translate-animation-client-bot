@@ -94,28 +94,29 @@ async def main(event):
             pass
         if(text == "animation help"):
             message = """
-            Animations:
-            1- Texts:
-            type
-            normal
-            2-Emojis:
-            moon
-            sky
-            time
-            earth
-            count
-            colorheart
-            heartbreak
-            love
-            angry
-            sad
-            happy
-            dumb
-            volcano
-            city
-            3-Bio:
+Animations:
 
-            https://github.com/AliSadafi83/translate-client-bot
+1- Texts:
+type
+normal
+
+2-Emojis:
+moon
+sky
+time
+earth
+count
+colorheart
+heartbreak
+love
+angry
+sad
+happy
+dumb
+volcano
+city
+            
+https://github.com/AliSadafi83/translate-animation-client-bot
             """
             await client.edit_message(event.chat_id, event.message, message)
         test = event.raw_text.split()
