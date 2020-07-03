@@ -28,14 +28,14 @@ if your command dont work choose other command...(commands are seprated by or)
 pip install asyncio
 pip install python-telegram-bot
 pip install telethon 
-pip install google trans
+pip install googletrans
 ```
 or
 ```
 py -m pip install asyncio
 py -m pip install python-telegram-bot
 py -m pip install telethon 
-py -m pip install google trans
+py -m pip install googletrans
 ```
 
 
@@ -75,7 +75,7 @@ class Bot:
 ```
 change api-id to your saved api-id(integer format)   [got to step 1]
 change api-hash to your saved api-hash(string format)   [got to step 1]
-change admin to your saved Id from t.me/userinfobot(integer format)    [got to step 2]
+change admin to your saved Id from https://t.me/userinfobot(integer format)    [got to step 2]
 
 Example:
 ```
@@ -198,6 +198,50 @@ example:
 ```
 moon 10
 ```
+
+### Translator Intro
+
+You Can Translate from any other languages to Persian or English...
+You can translate persian to English...
+You Can Translate Finglish to Persian...
+It works with Auto-Language-Detection
+
+### Translator Guide
+
+Follow the tips:
+
+1- Translate Replied Message:
+
+first reply message
+
+the send message with this format:
+```
+trasnlate to language_name
+```
+availble language_name s: fa, en
+Example:
+Reply message then:
+```
+trasnlate to fa
+```
+It will be editted to the translated text...
+
+2- Translate your Text:
+
+you should send message with this format:
+```
+trasnlate to language_name
+this is your texts it can contain emojis,digits,...
+and it can be more thn one or tow lines...
+```
+example
+
+```
+trasnlate to fa
+Hi Guys!
+How Are you?
+```
+
 
 ## Version
 
