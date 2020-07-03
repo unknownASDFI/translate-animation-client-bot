@@ -1,95 +1,150 @@
-# translate-client-bot
-# Animation-Chat
-# Translation
 
 
-client telegram bot for animation chat and translate<br/>
 
-Installation:<br/><br/>
-install python3
-if first command dosnt work, choose next command(seprated by or)!<br/>
-install telethon by this command in cmd or terminal:<br/>
-pip install asyncio              (or)              py -m pip install asyncio<br/>
-pip install python-telegram-bot              or              py -m pip install python-telegram-bot<br/>
-pip install telethon              (or)              py -m pip install telethon<br/><br/>
-install google-translator-api by this command in cmd or terminal:<br/>
-pip install googletrans              (or)              py -m pip install googletrans<br/></br>
-Goto https://my.telegram.org/ <br/>
-Login to your Telegram account with the phone number of the developer account to use.<br/>
+# Best-Translator-&-Animation-Client-Bot
+
+Send Animation messages and translate texts from other languages via your account in telegram whith telegram client bot.
+
+## Getting Started
+
+(Download or Copy) main.py and save it in a directory... example directory: /path/to/file/main.py
+
+### Prerequisites
+
+You Need to Install python3 + and set your python env-variables...
+(if you check the add to path in installation it will be fixed after re-start)
+
+```
+Python 3.5 or newer Versions
+```
+
+### Installing
+
+Run this Commands Throw CMD(WINDOWS) or Terminal(LINUX):
+if your command dont work choose other command...(commands are seprated by or)
+(You should be connected to Internet network Connection to download and Install this Packages)
+
+```
+pip install asyncio
+pip install python-telegram-bot
+pip install telethon 
+pip install google trans
+```
+or
+```
+py -m pip install asyncio
+py -m pip install python-telegram-bot
+py -m pip install telethon 
+py -m pip install google trans
+```
+
+
+### Setup
+
+You should get api from telegram web site by following steps:
+1-
+Goto https://my.telegram.org/
+Login to your Telegram account with the phone number of the developer account to use.
 Click under API Development tools.<br/>
-A Create new application window will appear. Fill in your application details. There is no need to enter any URL, and only the first two fields (App title and Short name) can currently be changed later.<br/>
-Click on Create application at the end. Remember that your API hash is secret and Telegram won’t let you revoke it. Don’t post it anywhere!<br/>
-put api_hash and api_id in Bot Class Variables...<br/>
-goto @userinfobot and get your chat id in this bot and put it in Bot class in admin variable<br/>
-and let start your code:)<br/>
-enter your phone number...<br/>
-enter your verfiacation code...<br/>
-Enter "ping" as message in telegram if the text change to the Pong you're Bot s been installed Successfully<br/>
-Finish:)<br/>
+A Create new application window will appear. Fill in your application details. There is no need to enter any URL, and only the first two fields (App title and Short name) can currently be changed later.
+Click on Create application at the end. Remember that your API hash is secret and Telegram won’t let you revoke it. Don’t post it anywhere!
+Copy and Save your API-id and API-hash
 
-Guide:<br/>
+2-
+Now  go to t.me/userinfobot and start the bot...
+you'll get a message like this:
+```
+Id: 401165773
+First: ฅli
+Lang: en
+```
+copy you Id Number and save it...
 
-Enter "animation help" as message in telegram then you see animation list:)<br/>
-Animation Guide:
+3- We should edit the source code... open the file whithe a text Editor(Recommended to Use ATOM, Pycharm, VSCODE, SUBLIME)
+You Can find class Bot in line 13:
+```
+class Bot:
+    api_id = 0 
+    api_hash = ""    
+    admin = 0  
+    translator =  Translator(service_urls=[
+      'translate.google.com',
+      'translate.google.co.kr',
+    ])
+```
+change api-id to your saved api-id(integer format)   [got to step 1]
+change api-hash to your saved api-hash(string format)   [got to step 1]
+change admin to your saved Id from t.me/userinfobot(integer format)    [got to step 2]
 
-            1- Texts:
-            type
-            normal
+Example:
+```
+class Bot:
+    api_id = 122246935
+    api_hash = "0efadaw22611667esfsfbbf2b5f65de39e2awb11b" 
+    admin = 401165773  
+    translator =  Translator(service_urls=[
+      'translate.google.com',
+      'translate.google.co.kr',
+    ])
+```
+Now Save the code By Ctrl+S...
 
-            2-Emojis:
-            moon
-            sky
-            time
-            earth
-            count
-            colorheart
-            heartbreak
-            love
-            angry
-            sad
-            happy
-            dumb
-            volcano
-            city
+4 - Now If you're in Filtered telegram location, you should connect to VPN, DNS to Bypass filtering...
 
-           
-example for texts:<br/><br/>
-____________<br/>
-type<br/>
-Hi My name is bot<br/>
-and this<br/>
-is my text<br/>
-___________<br/>
-<br/>
-emojis:<br/>
-format:</br>
-animation_name count_of_replays<br/>
-example:<br/>
-___________<br/>
-moon 10<br/>
-___________<br/>
+5 - Run this Commands Throw CMD(WINDOWS) or Terminal(LINUX):
+if your command dont work choose other command...(commands are seprated by or)
+(  /path/to/file/main.py is my example file location... you should put your file location instead  )
 
-###########################################<br/>
-translation guide:<br/>
-YOU CAN TRANSLATE ANY LANGUAGES TO {FA, EN} :)<br/>
-BUT YOU CANT TRANSLATE FROM EN OR FA TO OTHER LANGUAGES...(EN TO FA OR FA TO EN is OK;)<br/>
-languages:en,fa<br/>
-<br/>
-example:<br/>
-<br/>
-______________<br/>
-translate to fa<br/>
-Hi My<br/>
-Name is ali:)<br/>
-whats up?<br/>
-_______________<br/>
+```
+python /path/to/file/main.py
+```
+or
+```
+py /path/to/file/main.py
+```
+### Break down into end to end tests
 
-<br/><br/>
-another Example for translate other's Message:<br/>
-1- reply the message<br/>
-2- second write those message:<br/>
-_________________<br/>
-translate to fa<br/>
-_________________<br/>
+Explain what these tests test and why
 
-Joy & STAR
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Version
+
+Version 1.0.1
+
+## Authors
+
+* **Ali Sadafi** - *Initial work* - [GitHUB](https://github.com/alisadafi83)
+
+
+
+## Cost
+
+
+Lets Pray for me and Star the project and follow me instead paying...
+
+
