@@ -3,7 +3,7 @@
 
 # Best-Translator-&-Animation-Client-Bot
 
-Send Animation messages and translate texts from other languages via your account in telegram whith telegram client bot.
+Send Animation messages and translate texts from other languages via your account in telegram white telegram client bot.
 
 ## Getting Started
 
