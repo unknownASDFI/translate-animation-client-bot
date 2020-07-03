@@ -7,7 +7,7 @@ client telegram bot for animation chat and translate<br/>
 
 Installation:<br/><br/>
 install python3
-if first command dosnt work, choose next command(seprated by or)!
+if first command dosnt work, choose next command(seprated by or)!<br/>
 install telethon by this command in cmd or terminal:<br/>
 pip install asyncio              (or)              py -m pip install asyncio<br/>
 pip install python-telegram-bot              or              py -m pip install python-telegram-bot<br/>
