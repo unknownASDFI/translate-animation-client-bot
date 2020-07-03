@@ -42,6 +42,7 @@ py -m pip install google trans
 ### Setup
 
 You should get api from telegram web site by following steps:
+
 1-
 Goto https://my.telegram.org/
 Login to your Telegram account with the phone number of the developer account to use.
@@ -92,7 +93,9 @@ Now Save the code By Ctrl+S...
 4 - Now If you're in Filtered telegram location, you should connect to VPN, DNS to Bypass filtering...
 
 5 - Run this Commands Throw CMD(WINDOWS) or Terminal(LINUX):
+
 if your command dont work choose other command...(commands are seprated by or)
+
 (  /path/to/file/main.py is my example file location... you should put your file location instead  )
 
 ```
@@ -102,35 +105,99 @@ or
 ```
 py /path/to/file/main.py
 ```
-### Break down into end to end tests
 
-Explain what these tests test and why
+6-
+Now it Need Your phone Number... You Shoud Put it with this Fomat:
+```
++Country-Code Phone Number
+```
+For Example This is For Iranian Users:
+```
++989123456789
+```
+Telegram Will Send You Five-Digits as Code and you should put it...
+If you have tow-step-Verfiacation You Should Enter Your Second Password... It wont show you the password in Terminal(or CMD)...
+
+7-
+Congratulation! You're Logged in Successfully!
+
+
+### Connection Test
+
+Send this text as Message in Telegram
 
 ```
-Give an example
+ping
 ```
+if It get Editted to:
+```
+pong
+```
+it shows that you're Connected Successfully!
 
-### And coding style tests
+### Animations Intro
 
-Explain what these tests test and why
+As it Knowned... Animations are frames of actions that build effects or story...
+
+### Text Animations
+In Texts We Can Animate Our Text Messages...
+
+Effects:
+
+1-Normal Effect:
+you can send Message with this format:
+```
+normal
+this is your
+text messages...
+it Can be in any formats and contain digits,emojis and etc
+and be more than one or tow line
+```
+Example:
+```
+normal
+Hello
+```
+the text will be Eddited in This Way:
+
+H    ---    He   ---   Hel   ---   Hell   ---   Hell   ---   Hello
+
+2-Type Effect:
+you can send Message with this format:
+```
+type
+this is your
+text messages...
+it Can be in any formats and contain digits,emojis and etc
+and be more than one or tow line
+```
+Example:
+```
+type
+Hello
+```
+the text will be Eddited in This Way:
+
+H|    ---    He|   ---   Hel|   ---   Hell|   ---   Hello|   --- Hello 
+
+### Emoji Animations
+
+you can build animations by Emojis:)
+you can get animation names by sending thos message:
+```
+animation help
+```
+and you can get animation names...
+your emoji animation message should be in this format:
 
 ```
-Give an example
+animation_name counts_of_replay
 ```
+example:
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+```
+moon 10
+```
 
 ## Version
 
@@ -140,7 +207,9 @@ Version 1.0.1
 
 * **Ali Sadafi** - *Initial work* - [GitHUB](https://github.com/alisadafi83)
 
-
+## Used Libraries
+* **Telethon** - *V 1.14.0* - [GitHUB](https://github.com/LonamiWebs/Telethon) - [Documentation](https://docs.telethon.dev/en/latest/)
+* **GoogleTrans** - *V 3.0.0* - [Documentation](https://py-googletrans.readthedocs.io/en/latest/)
 
 ## Cost
 
