@@ -82,7 +82,7 @@ change api-id to your saved api-id(integer format)   [got to step 1]
 
 change api-hash to your saved api-hash(string format)   [got to step 1]
 
-change admin to your saved Id from https://t.me/userinfobot(integer format)    [got to step 2]
+change admin to your saved Id from https://t.me/userinfobot  (integer format)    [got to step 2]
 
 Example:
 ```
