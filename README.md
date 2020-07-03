@@ -137,7 +137,7 @@ Send this text as Message in Telegram
 ```
 ping
 ```
-if It get Editted to:
+if It gets Editted to:
 ```
 pong
 ```
