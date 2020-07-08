@@ -231,7 +231,7 @@ first reply message
 
 the send message with this format:
 ```
-trasnlate to language_name
+translate to language_name
 ```
 availble language_name s: fa, en
 
@@ -239,7 +239,7 @@ Example:
 
 Reply message then:
 ```
-trasnlate to fa
+translate to fa
 ```
 It will be editted to the translated text...
 
@@ -247,14 +247,14 @@ It will be editted to the translated text...
 
 you should send message with this format:
 ```
-trasnlate to language_name
+translate to language_name
 this is your texts it can contain emojis,digits,...
 and it can be more thn one or tow lines...
 ```
 example
 
 ```
-trasnlate to fa
+translate to fa
 Hi Guys!
 How Are you?
 ```
