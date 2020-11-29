@@ -30,7 +30,7 @@ client = TelegramClient("pro", Bot.api_id, Bot.api_hash)
 @client.on(events.NewMessage)
 async def main(event):
 
-    user_id = event.from_id
+    user_id = event.sender_id
     if(user_id == Bot.admin):
         text = event.raw_text
         if(text in ["ping","Ping"]):
